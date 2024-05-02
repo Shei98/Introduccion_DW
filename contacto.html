@@ -15,19 +15,35 @@
   <main>
     <div class="contenedor_formulario_contacto">
         <h2>Formulario</h2>
-        <form>
-            <fieldset>
-              <div class="fila1">
-                  <label id="lblApellido" for="txtApellido">Apellido</label>
-                  <input id="txtApellido" name="apellido" type="text" size="50"
-                  placeholder="Escriba aquí su/s apellido/s" required autofocus/>
-              </div>
-              <br>
-              <div class="fila2">
-                  <label id="lblNombre" for="txtNombre">Nombre</label>
-                  <input id="txtNombre" name="nombre" type="text" size="50"
-                  placeholder="Escriba aquí su primer nombre" required />
-              </div>
-              <br>
+            <form>
+                <fieldset>
+                    <div class="fila1">
+                        <label id="lblApellido" for="txtApellido">Apellido</label>
+                        <input id="txtApellido" name="apellido" type="text" size="50"
+                        placeholder="Escriba aquí su/s apellido/s" required autofocus/>
+                    </div>
+                    <br>
+                    <div class="fila2">
+                        <label id="lblNombre" for="txtNombre">Nombre</label>
+                        <input id="txtNombre" name="nombre" type="text" size="50"
+                        placeholder="Escriba aquí su primer nombre" required />
+                    </div>
+                    <br>
+                    <div class="fila3">
+                        <label id="lblCelular" for="txtNombreSegundo">Celular</label>
+                        <input id="txtCelular" name="segundoNombre" type="text" size="50" 
+                        placeholder="Escriba aquí su número de celular" required/>
+                    </div>
+                    <br>
+                    <div class="fila4">
+                        <label id="lblAclaracion" for="txtAclaracion">¿Alguna aclaración?</label>
+                        <input id="txtAclaracion" name="aclaracion" type="text" size="50" 
+                        placeholder="Escriba aquí las observaciones que crea pertinente" required/>
+                    </div>
+                    <br>
+                <input type="submit" value="Enviar"/>
+                </fieldset>   
+            </form>
+    </div>
 </body>
 </html>
