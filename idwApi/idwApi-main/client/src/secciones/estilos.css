@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* H O M E */
+/*Barra de navegación: */
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #ff7535;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.logo img {
+    max-height: 40px; 
+    margin-left: 16px;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right:10px;
+}
+
+.navbar ul li a {
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #ff844b;
+}
+
+/*Contenido principal del Home: */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/foto_hotel.jpg);
+    background-size: cover;
+}
+
+.titulo-principal {
+    margin-bottom: 40px;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Dancing Script';
+    color: #fff;
+}
+
+.principal p {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Bitter';
+    color: #fff;
+    padding: 0 100px;
+}
+
+/*Seccion Habitaciones: */
+
+.titulo-hab, .hab h2 {
+    font-size: 60px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titulo-hab {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.hab {
+    padding: 200px;
+    background-color: #393942;
+}
+
+.hab h2 {
+    margin-bottom: 40px;
+    padding: 0 100px;
+}
+
+.habitaciones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imagen-texto img {
+    height: 320px; 
+    width: 320px; 
+    margin: 16px; 
+}
+
+.imagen-texto h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.imagen-texto p {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+/*OTROS: */
+
+.titulo, p {
+    color: #fff;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 0 100px;
+}
+
+.contenido {
+    height:  50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #ff7535;
+    display: inline-block;
+}
+
+.boton:hover {
+    background: #ff844b;
+}
+
+.exclusivo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/costos.jpeg) no-repeat center / cover fixed;
+    text-align: center;
+    height: 50rem;
+}
+
+.extra {
+    background: #393942;
+    height: 30rem;
+    text-align: center;
+}
+
+/* I N F O R M A C I O N   I N S T I T U C I O N A L */
+
+.nosotros {
+    background: #393942;
+    height: 800px; 
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img-info.jpg) no-repeat center/cover;
+}
+
+.informacion h2 {
+    margin-bottom: 40px;
+    font-size: 80px; 
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive; 
+    color: #fff;
+    text-align: center;
+}
+
+/* F O R M U L A R I O   D E   C O N T A C T O */
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 160px auto; 
+}
+
+.form-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7535;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #ff8248;
+}
+
+
+/* F O O T E R */
+
+footer {
+    background-color: #ff7535;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; 
+    bottom: 0; 
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
